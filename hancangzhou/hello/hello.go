@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"hancangzhou/greetings"
+)
 
 func main() {
-	fmt.Printf("hello world")
+	// Get a greeting message and print it.
+	message := greetings.Hello("Gladys")
+	fmt.Println(message)
 }
