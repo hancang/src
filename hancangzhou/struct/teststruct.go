@@ -14,7 +14,7 @@ type Command struct {
 	}
 
 var version int = 1
-cmd := &Command{}
+cmd = new(Commend)
 cmd.Name = "version"
 cmd.Var = &version
 cmd.Comment = "show version"
