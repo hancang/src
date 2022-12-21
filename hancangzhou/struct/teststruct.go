@@ -1,11 +1,6 @@
 package main
 
-import
-	(
-		"fmt"
-	)
-
-
+import "fmt"
 
 type Command struct {
 	Name    string    // 指令名称
@@ -33,3 +28,6 @@ cmd = newCommand(
 	"show version",
 	)
 	
+func main(){
+	fmt.Printf("len=%d cap=%d slice=%v\n")
+}
